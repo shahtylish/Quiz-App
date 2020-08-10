@@ -1,0 +1,236 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle, white, black);
+}
+
+body{
+    margin: 0px;
+}
+
+#logout{
+    float: right;
+    margin-top: -150px;
+    margin-right: 50px;
+    height: 50px;
+    width: 110px;
+    background-color: black;
+    font-size: 20px;
+    color: bisque;
+    border-radius: 30px;
+    transition: all 0.2s;
+    box-shadow: 0px 3px 1px 0px black;
+}
+
+#logout:hover{
+    background-color: bisque;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+#h{
+    margin-top: 0px;
+    text-align: center;
+    color: maroon;
+    font-size: 7vw;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+
+#main{
+    height: 400px;
+    width: 550px;
+    background-color: cornflowerblue;
+    margin: 70px auto;
+    padding: 11px;
+    border-radius: 10px;
+    box-shadow: 30px 30px 8px 3px black;
+    position: relative;
+}
+
+#score{
+    float: right;
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 3px 1px 0px #874c11;
+}
+
+#scoreval{
+    font-weight: bold;
+}
+
+#wrong{
+    position: absolute;
+    left: 210px;
+    color: wheat;
+    background-color: firebrick;
+    padding: 10px;
+    box-shadow: 0px 3px 1px 0px #470f0f;
+    display: none;
+}
+
+#correct{
+    position: absolute;
+    left: 250px;
+    background-color: lightgreen;
+    padding: 10px;
+    box-shadow: 0px 3px 1px 0px darkgreen;
+    display: none;
+}
+
+#question{
+    height: 120px;
+    width: 450px;
+    line-height: 120px;
+    margin: 50px auto 10px auto;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    font-size: 82px;
+    font-family: cursive;
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 0px 4px 1px 0px #126259;
+}
+
+#ins{
+    height: 50px;
+    line-height: 50px;
+    width: 450px;
+    margin: 10px auto;
+    background-color: mediumpurple;
+    text-align: center;
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 4px 1px 0px rebeccapurple;
+}
+
+#options{
+    height: 100px;
+    width: 450px;
+    margin: 5px auto;
+}
+
+.opt{
+    height: 85px;
+    line-height: 85px;
+    width: 85px;
+    float: left;
+    background-color: goldenrod;
+    color: darkred;
+    margin-right: 36px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 1px 0px #633e07;
+    cursor: pointer;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;   /*For other Browsers.*/
+    -moz-transition: all 0.2s;   /*For other Browsers.*/
+    -o-transition: all 0.2s;   /*For other Browsers.*/
+    -ms-transition: all 0.2s;   /*For other Browsers.*/
+}
+
+.opt:hover{
+    background-color: gray;
+    color: burlywood;
+    box-shadow: 0px 3px 1px 0px black;
+}
+
+.opt:active{
+    box-shadow: none;
+    top: 4px;
+}
+
+#opt4{
+    margin-right: 0px;
+}
+
+#start{
+    width: 110px;
+    background-color: pink;
+    padding: 10px;
+    position: absolute;
+    margin: 8px auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0px 3px 1px 0px #6b2345;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+}
+
+#start:hover{
+    background-color: brown;
+    color: navajowhite;
+    box-shadow: 0px 3px 1px 0px black;
+}
+
+#start:active{
+    box-shadow: none;
+    top: 3px;
+}
+
+#time{
+    position: absolute;
+    float: right;
+    top: 390px;
+    left: 380px;
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration-line: underline;
+    color: antiquewhite;
+    display: none;
+}
+
+#gameover{
+    height: 170px;
+    line-height: 35px;
+    width: 490px;
+    background: linear-gradient(#653a38, #000000);
+    color: floralwhite;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    position: absolute;
+    top: 120px;
+    left: 36px;
+    border-radius: 10px;
+    z-index: 2; /*for always show on top from all divs*/
+    display: none;
+}
+
+#linkdiv{
+    background-color: navy;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;;
+}
+
+#link{
+    color: crimson;
+    transition: all 0.2s;
+}
+
+#link:hover{
+    color: darkturquoise;
+    font-size: 28px;
+    text-decoration-color: white;
+}
+
+#link:active{
+    color: floralwhite;
+}
